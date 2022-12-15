@@ -4,8 +4,12 @@
   "description": "Project typescrit - TODO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0",
+    "build": "npx tsc -w"
   },
   "author": "Marcos Sá",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
 }
